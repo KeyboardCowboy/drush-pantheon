@@ -1,13 +1,15 @@
 {
     "name": "keyboardcowboy/drush-pantheon",
     "description": "Drush wrapper for Pantheon's terminus.",
-    "type": "drush-plugin",
-    "license": "GNU 3.0",
+    "type": "drupal-drush",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "KeyboardCowboy",
             "email": "chris@lullabot.com"
         }
     ],
-    "require": {}
+    "require": {
+      "drush/drush": "^8.0"
+    }
 }
